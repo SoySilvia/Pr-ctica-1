@@ -76,15 +76,15 @@ header {
     justify-content: left;
     display: flex;
     align-items: left;
-    margin-left: 15% ;
+    margin-left: 10% ;
 }
 
 #servicios > p {
     font-size: 1.8em;
     color: white;
     padding: auto;
-    margin-left: 15% ;
-    margin-right: 15%;
+    margin-left: 10% ;
+    margin-right: 10%;
 }
 
 .navbar {
