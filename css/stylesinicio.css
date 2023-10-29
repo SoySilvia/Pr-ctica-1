@@ -24,7 +24,7 @@ h2 {
 }
 
 
- p {
+p {
     font-family: 'Roboto';
     font-weight: 100; 
     color: #000000; 
@@ -32,10 +32,10 @@ h2 {
 
 .animate__animated.animate__bounce {
     --animate-duration: 2s;
-  }
+}
   
 
-  :root {
+:root {
     --animate-duration: 800ms;
     --animate-delay: 0.9s;
 }
@@ -48,8 +48,8 @@ li {
 a {
     text-decoration: none;
     color: #ffffff;
+    font-family:'Dela Gothic One'; 
     font-size: 1rem;
-    font-family: 'Roboto',  sans-serif;
 }
 
 a:hover {
@@ -72,11 +72,21 @@ header {
     align-items: left;
 }
 
-#servicios > h1 {
+#titulo a{
     justify-content: left;
     display: flex;
     align-items: left;
-    margin-left: 10% ;
+    font-size: 5rem;    
+    color: #ffffff;
+    font-family: 'Modak';
+
+}
+
+#titulo > h1 {
+    justify-content: left;
+    display: flex;
+    align-items: left;
+
 }
 
 
@@ -90,16 +100,23 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family:'Dela Gothic One'; 
+
 }
 
 .navbar .logo a {
-    font-size: 1.5rem;
+    font-size: 3rem;
     font-weight: bold;
+    font-family:'Modak'; 
+
 }
 
 .navbar .links {
     display: flex;
+    flex-direction: row;
     gap: 2rem;
+    font-family:'Dela Gothic One'; 
+
 
 }
 
@@ -117,6 +134,7 @@ header {
     border:none;
     border-radius: 20px;
     font-size: 0.8rem;
+    font-family:'Dela Gothic One'; 
     font-weight: bold;
     cursor: pointer;
     transition: scale 0.2;
@@ -141,6 +159,7 @@ header {
     width: 300px;
     background: #ffffff;
     backdrop-filter: blur(15px);
+    font-family:'Dela Gothic One'; 
     border-radius: 10px;
     overflow: hidden;
     transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -148,6 +167,8 @@ header {
 
 .dropdown_menu a{
     color: #000000;
+    font-family:'Dela Gothic One'; 
+
 }
 
 .dropdown_menu li {
@@ -159,6 +180,8 @@ header {
 
 .dropdown_menu.open {
     height: 200px;
+    font-family:'Dela Gothic One'; 
+
 }
 
 .dropdown_menu .action_btn {
@@ -172,6 +195,112 @@ section {
     max-width: 1500px;
     margin: auto;
     padding: 5%;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #efefef;
+
+}
+.slide-container{
+    max-width: 1120px;
+    width: 100%;
+    background-color: grey;
+    padding: 40px;
+}
+
+.slide-content{
+    margin: 0 40px;
+}
+.card{
+    width: 320px;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+
+.image-content,
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;    
+}
+
+.image-content{
+    position: relative;
+    row-gap: 5px;  
+    padding: 25px 0;
+}
+.overlay{ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #de70ce;
+    border-radius: 25px 25px 0 25px;
+}
+
+.overlay::before,
+.overlay::after { 
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px; 
+    width: 40px;
+    background-color: #de70ce;
+    
+}
+
+.overlay::after { 
+    border-radius: 0 25px 0 0;
+    background-color: #ffffff;
+    
+}
+.card-image { 
+    position: relative;
+    background: #ffffff;
+    padding: 3px;
+}
+
+.card-image .card-img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #de70ce
+}
+
+.name{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;  
+}
+
+.description{
+    font-size: 14px;
+    color: #707070;  
+    text-align: center;
+}
+
+.button{
+    border: none;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 8px 16px;
+    background-color: #de70ce;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button:hover{
+    background: #de70ce;
 }
 
 footer { 
