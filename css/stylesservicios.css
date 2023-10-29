@@ -23,8 +23,15 @@ h2 {
     display: flex;
 }
 
+h3 {
+    font-family: 'Roboto';
+    font-weight: lighter;
+    font-size: 1em;
+    color: #000000; 
+    display: flex;
+}
 
- p {
+p {
     font-family: 'Roboto';
     font-weight: 100; 
     color: #000000; 
@@ -39,23 +46,6 @@ h2 {
     --animate-duration: 800ms;
     --animate-delay: 0.9s;
 }
-
-
-li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 1rem;
-    font-family: 'Roboto',  sans-serif;
-}
-
-a:hover {
-    color: #de70ce;
-}
-
 
 header {
     width: 100%;
@@ -83,7 +73,23 @@ header {
     font-size: 1.8em;
     color: white;
     padding: auto;
+}
 
+/*Maquetación del menu*/
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: 'Roboto',  sans-serif;
+}
+
+a:hover {
+    color: #de70ce;
 }
 
 .navbar {
@@ -179,8 +185,382 @@ section {
     padding: 5%;
 }
 
+/*Maquetación del galeria imagenes desplegable 1 LOGO*/
+.container {
+    width: 100%;
+    height: 80vh;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-box-logo {
+  width: 320px;
+  height: 300px;  
+  margin: 5px;
+  border-radius: 70px;
+  background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/logo-1.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: width 0.5s;
+}
+
+
+.img-box-logo:nth-child(2) {
+    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/logo-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box-logo:nth-child(3) {
+    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/logo-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img-box-logo h3 {
+    color: #ffffff;
+    background-color: #de70ce;
+    border-radius: 40px;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    opacity: 0;
+    transition: bottom 0.5, opacity 0.2s;
+}
+
+.img-box-logo:hover {
+    width: 400px;
+    cursor: pointer;
+
+}
+
+.img-box-logo:hover h3{
+    opacity: 1;
+    bottom: 25px;
+    
+}
+
+
+
+/*Maquetación del galeria imagenes desplegable 2 NAMING*/
+.container {
+    width: 100%;
+    height: 80vh;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-box-naming {
+  width: 150px;
+  height: 300px;  
+  margin: 5px;
+  border-radius: 70px;
+  background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/naming-1.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: width 0.5s;
+}
+
+
+.img-box-naming:nth-child(2) {
+    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/naming-2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box-naming:nth-child(3) {
+    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/naming-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box-naming:nth-child(4) {
+    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/naming-4.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box-naming:nth-child(5) {
+    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/naming-5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box-naming:nth-child(6) {
+    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/naming-6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box-naming h3 {
+    color: #ffffff;
+    background-color: #de70ce;
+    border-radius: 40px;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    opacity: 0;
+    transition: bottom 0.5, opacity 0.2s;
+}
+
+.img-box-naming:hover {
+    width: 300px;
+    cursor: pointer;
+
+}
+
+.img-box-naming:hover h3{
+    opacity: 1;
+    bottom: 25px;
+    
+}
+
+/*Maquetación del galeria imagenes desplegable 3 PACKAGING*/
+.container {
+    width: 100%;
+    height: 80vh;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-box-pack {
+  width: 240px;
+  height: 300px;  
+  margin: 5px;
+  border-radius: 70px;
+  background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/packaging-1.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: width 0.5s;
+}
+
+
+.img-box-pack:nth-child(2) {
+    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/packaging-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box-pack:nth-child(3) {
+    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/packaging-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img-box-pack:nth-child(4) {
+    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/packaging-4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img-box-pack h3 {
+    color: #ffffff;
+    background-color: #de70ce;
+    border-radius: 40px;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    opacity: 0;
+    transition: bottom 0.5, opacity 0.2s;
+}
+
+.img-box-pack:hover {
+    width: 320px;
+    cursor: pointer;
+
+}
+
+.img-box-pack:hover h3{
+    opacity: 1;
+    bottom: 25px;
+    
+}
+
+/*Maquetación del galeria imagenes desplegable 4 DIGITAL*/
+.container {
+    width: 100%;
+    height: 80vh;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-box-digi {
+  width: 320px;
+  height: 300px;  
+  margin: 5px;
+  border-radius: 70px;
+  background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/digital-1.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: width 0.5s;
+}
+
+
+.img-box-digi:nth-child(2) {
+    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/digital-2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box-digi:nth-child(3) {
+    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/digital-3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img-box-digi h3 {
+    color: #ffffff;
+    background-color: #de70ce;
+    border-radius: 40px;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    opacity: 0;
+    transition: bottom 0.5, opacity 0.2s;
+}
+
+.img-box-digi:hover {
+    width: 400px;
+    cursor: pointer;
+
+}
+
+.img-box-digi:hover h3{
+    opacity: 1;
+    bottom: 25px;
+    
+}
+
+/*Maquetación del galeria imagenes desplegable 5 IMAGEN*/
+.container {
+    width: 100%;
+    height: 80vh;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-box-img {
+  width: 150px;
+  height: 300px;  
+  margin: 5px;
+  border-radius: 70px;
+  background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/imagen-1.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: width 0.5s;
+}
+
+
+.img-box-img:nth-child(2) {
+    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/imagen-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box-img:nth-child(3) {
+    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/imagen-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box-img:nth-child(4) {
+    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/imagen-4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box-img:nth-child(5) {
+    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/imagen-5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box-img:nth-child(6) {
+    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/imagen-6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box-img h3 {
+    color: #ffffff;
+    background-color: #de70ce;
+    border-radius: 40px;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    opacity: 0;
+    transition: bottom 0.5, opacity 0.2s;
+}
+
+.img-box-img:hover {
+    width: 300px;
+    cursor: pointer;
+
+}
+
+.img-box-img:hover h3{
+    opacity: 1;
+    bottom: 25px;
+    
+}
+
+/*Maquetación footer*/
 footer { 
-    height: 100vh;
+    height: 200vh;
     background-color: rgb(0, 0, 0);
     flex-direction: column;
     display: flex;
@@ -213,6 +593,7 @@ footer {
     width: 100%;
     height: 4em;
     margin: 2em 0;
+    padding: 0.5rem 1rem;
     border: #ffffff 1px solid;
     border-radius: 60px;
 }
@@ -223,7 +604,7 @@ footer {
     border-radius: 60px;
 }
 
-/*Maquetación del botón de enviar formulario. Se especifica el tipo de input que es porque los input pueden tener distinto aspecto*/
+/*Maquetación del botón de enviar formulario*/
 #contacto > div:nth-child(2) > div > form > input[type="submit"] {
     color: black;
     background-color: #ffffff;
@@ -241,13 +622,12 @@ footer {
     border: #ffffff 1px solid;
 }
 
-/*En el fomulario ocultamos las etiquetas para que el diseño quede más limpio*/
 #contacto > div:nth-child(2) > div > form > label {
     display: none;
 }
 
 
-/*Maquetación de los iconos de las redes sociales. Son una lista de enlaces de navegación*/
+/*Maquetación de los iconos de las redes sociales*/
 #contacto > div:nth-child(2) > div > ul {
     padding-left: 0;
     display: flex;
@@ -268,7 +648,7 @@ footer {
     transform: scale(1.2, 1.2);
 }
 
-/*Maquetación del mapa de Google Maps. Tenemos que quitar en el elemento iframe del HTML todo lo relacionado con los estilos para que no haya conflictos*/
+/*Maquetación del mapa de Google Maps*/
 #contacto > div:nth-child(2) > iframe {
     width: 60%;
     min-height: 400px;
