@@ -228,7 +228,10 @@ section {
 
 
 .img-box-logo h3 {
-    color: #000000;
+    color: #ffffff;
+    background-color: #de70ce;
+    border-radius: 40px;
+    padding: 0.5rem 1rem;
     position: absolute;
     bottom: 0;
     left: 30px;
@@ -310,7 +313,10 @@ section {
 }
 
 .img-box-naming h3 {
-    color: #000000;
+    color: #ffffff;
+    background-color: #de70ce;
+    border-radius: 40px;
+    padding: 0.5rem 1rem;
     position: absolute;
     bottom: 0;
     left: 30px;
@@ -380,7 +386,10 @@ section {
 
 
 .img-box-pack h3 {
-    color: #000000;
+    color: #ffffff;
+    background-color: #de70ce;
+    border-radius: 40px;
+    padding: 0.5rem 1rem;
     position: absolute;
     bottom: 0;
     left: 30px;
@@ -400,8 +409,158 @@ section {
     
 }
 
+/*Maquetación del galeria imagenes desplegable 4 DIGITAL*/
+.container {
+    width: 100%;
+    height: 80vh;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-box-digi {
+  width: 320px;
+  height: 300px;  
+  margin: 5px;
+  border-radius: 70px;
+  background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/digital-1.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: width 0.5s;
+}
+
+
+.img-box-digi:nth-child(2) {
+    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/digital-2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box-digi:nth-child(3) {
+    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/digital-3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img-box-digi h3 {
+    color: #ffffff;
+    background-color: #de70ce;
+    border-radius: 40px;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    opacity: 0;
+    transition: bottom 0.5, opacity 0.2s;
+}
+
+.img-box-digi:hover {
+    width: 400px;
+    cursor: pointer;
+
+}
+
+.img-box-digi:hover h3{
+    opacity: 1;
+    bottom: 25px;
+    
+}
+
+/*Maquetación del galeria imagenes desplegable 5 IMAGEN*/
+.container {
+    width: 100%;
+    height: 80vh;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-box-img {
+  width: 150px;
+  height: 300px;  
+  margin: 5px;
+  border-radius: 70px;
+  background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/imagen-1.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: width 0.5s;
+}
+
+
+.img-box-img:nth-child(2) {
+    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/imagen-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box-img:nth-child(3) {
+    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/imagen-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box-img:nth-child(4) {
+    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/imagen-4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box-img:nth-child(5) {
+    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/imagen-5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box-img:nth-child(6) {
+    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/imagen-6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box-img h3 {
+    color: #ffffff;
+    background-color: #de70ce;
+    border-radius: 40px;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    opacity: 0;
+    transition: bottom 0.5, opacity 0.2s;
+}
+
+.img-box-img:hover {
+    width: 300px;
+    cursor: pointer;
+
+}
+
+.img-box-img:hover h3{
+    opacity: 1;
+    bottom: 25px;
+    
+}
+
+/*Maquetación footer*/
 footer { 
-    height: 100vh;
+    height: 200vh;
     background-color: rgb(0, 0, 0);
     flex-direction: column;
     display: flex;
@@ -434,6 +593,7 @@ footer {
     width: 100%;
     height: 4em;
     margin: 2em 0;
+    padding: 0.5rem 1rem;
     border: #ffffff 1px solid;
     border-radius: 60px;
 }
@@ -462,7 +622,6 @@ footer {
     border: #ffffff 1px solid;
 }
 
-/*En el fomulario ocultamos las etiquetas para que el diseño quede más limpio*/
 #contacto > div:nth-child(2) > div > form > label {
     display: none;
 }

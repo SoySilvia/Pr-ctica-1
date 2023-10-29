@@ -169,9 +169,10 @@ a:hover {
     border-radius: 60px;
 }
 
-/*Maquetación del botón de enviar formulario. Se especifica el tipo de input que es porque los input pueden tener distinto aspecto*/
+/*Maquetación del botón de enviar formulario.*/
 #contacto > div:nth-child(2) > div > form > input[type="submit"] {
     color: black;
+    padding: 0.5rem 1rem;
     background-color: #ffffff;
     border: none;
     width: 6em;
@@ -187,13 +188,12 @@ a:hover {
     border: #ffffff 1px solid;
 }
 
-/*En el fomulario ocultamos las etiquetas para que el diseño quede más limpio*/
 #contacto > div:nth-child(2) > div > form > label {
     display: none;
 }
 
 
-/*Maquetación de los iconos de las redes sociales. Son una lista de enlaces de navegación*/
+/*Maquetación de los iconos de las redes sociales.*/
 #contacto > div:nth-child(2) > div > ul {
     padding-left: 0;
     display: flex;
@@ -214,7 +214,7 @@ a:hover {
     transform: scale(1.2, 1.2);
 }
 
-/*Maquetación del mapa de Google Maps. Tenemos que quitar en el elemento iframe del HTML todo lo relacionado con los estilos para que no haya conflictos*/
+/*Maquetación del mapa de Google Maps.*/
 #contacto > div:nth-child(2) > iframe {
     width: 60%;
     min-height: 400px;
