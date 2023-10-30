@@ -85,7 +85,7 @@ a {
     text-decoration: none;
     color: #ffffff;
     font-size: 1rem;
-    font-family: 'Roboto',  sans-serif;
+    font-family:'Dela Gothic One'; 
 }
 
 a:hover {
@@ -101,18 +101,20 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family:'Dela Gothic One'; 
     z-index: 10;
 }
 
 .navbar .logo a {
     font-size: 1.5rem;
     font-weight: bold;
+    font-family:'Modak'; 
 }
 
 .navbar .links {
     display: flex;
     gap: 2rem;
-
+    font-family:'Dela Gothic One'; 
 }
 
 .navbar .toggle_btn {
@@ -129,6 +131,7 @@ a:hover {
     border:none;
     border-radius: 20px;
     font-size: 0.8rem;
+    font-family:'Dela Gothic One'; 
     font-weight: bold;
     cursor: pointer;
     transition: scale 0.2;
@@ -153,6 +156,7 @@ a:hover {
     width: 300px;
     background: #ffffff;
     backdrop-filter: blur(15px);
+    font-family:'Dela Gothic One'; 
     border-radius: 10px;
     overflow: hidden;
     transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -171,6 +175,7 @@ a:hover {
 
 .dropdown_menu.open {
     height: 200px;
+    font-family:'Dela Gothic One'; 
     z-index: 10;
 }
 
