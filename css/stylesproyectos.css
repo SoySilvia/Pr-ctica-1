@@ -101,6 +101,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 10;
 }
 
 .navbar .logo a {
@@ -170,6 +171,7 @@ a:hover {
 
 .dropdown_menu.open {
     height: 200px;
+    z-index: 10;
 }
 
 .dropdown_menu .action_btn {
@@ -262,7 +264,7 @@ section  > p {
     align-items: flex-end;
 }
 #Unicef>div>p{
-    text-align: left;
+    text-align: justify;
 }
 
 
@@ -304,7 +306,7 @@ section  > p {
     align-items: flex-end;
 }
 #Dreamworks>div>p{
-    text-align: left;
+    text-align: justify;
 }
 .video-dw>video{
    width: 100%;
@@ -446,7 +448,51 @@ footer {
             left: 2rem;
             width: unset;
         }
+
     }
   }
 
   /* RESPONSIVE */
+  @media (max-width:992px) {
+    .img-box-unicef >img {
+        width: 33.5vw;
+    }
+    .img-box-femme >img {
+        width: 33.5vw;
+    }
+    #proyectos > p {
+        font-size: 1.5em;
+    }
+    .img-box-nike>div {
+        left: -8em;
+        width: 150%;
+    }
+  }
+  @media (max-width:660px) {
+    p{
+        font-size: smaller;
+    }
+    #proyectos > p {
+        font-size: 1em;
+    }
+    section > div > p {
+        
+        width: 70%;
+       
+    }
+    section  > p {
+   
+        width: 70%;
+       
+    }
+    .img-box-nike>div {
+        left: -5em;
+        width: 140%;
+    }
+    .img-box-unicef >img {
+        width: 64vw;
+    }
+    .img-box-femme >img {
+        width: 70vw;
+    }
+}
