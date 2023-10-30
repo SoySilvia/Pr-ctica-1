@@ -85,12 +85,13 @@ a {
     text-decoration: none;
     color: #ffffff;
     font-size: 1rem;
-    font-family: 'Roboto',  sans-serif;
+    font-family:'Dela Gothic One'; 
 }
 
 a:hover {
     color: #de70ce;
 }
+
 
 .navbar {
     width: 100%;
@@ -104,8 +105,9 @@ a:hover {
 }
 
 .navbar .logo a {
-    font-size: 1.5rem;
+    font-size: 3rem;
     font-weight: bold;
+    font-family:'Modak'; 
 }
 
 .navbar .links {
