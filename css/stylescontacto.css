@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 1%;
+    padding: 0%;
     box-sizing: border-box;
     font-family:'Modak'; 
     font-family:'Dela Gothic One'; 
@@ -57,8 +57,6 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family:'Dela Gothic One'; 
-    z-index: 10;
 }
 
 .navbar .logo a {
@@ -70,7 +68,7 @@ a:hover {
 .navbar .links {
     display: flex;
     gap: 2rem;
-    font-family:'Dela Gothic One'; 
+
 }
 
 .navbar .toggle_btn {
@@ -87,7 +85,6 @@ a:hover {
     border:none;
     border-radius: 20px;
     font-size: 0.8rem;
-    font-family:'Dela Gothic One'; 
     font-weight: bold;
     cursor: pointer;
     transition: scale 0.2;
@@ -112,7 +109,6 @@ a:hover {
     width: 300px;
     background: #ffffff;
     backdrop-filter: blur(15px);
-    font-family:'Dela Gothic One'; 
     border-radius: 10px;
     overflow: hidden;
     transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -131,14 +127,16 @@ a:hover {
 
 .dropdown_menu.open {
     height: 200px;
-    font-family:'Dela Gothic One'; 
-    z-index: 10;
 }
 
 .dropdown_menu .action_btn {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+#contacto {
+    padding: 10%;
 }
 
 #contacto > div:nth-child(2) {
