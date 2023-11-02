@@ -208,7 +208,7 @@ section {
   height: 300px;  
   margin: 5px;
   border-radius: 70px;
-  background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/logo-1.jpg);
+  background-image: url(../img/logo-1.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -217,13 +217,13 @@ section {
 
 
 .img-box-logo:nth-child(2) {
-    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/logo-2.jpg);
+    background-image: url(../img/logo-2.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .img-box-logo:nth-child(3) {
-    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/logo-3.jpg);
+    background-image: url(../img/logo-3.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -276,7 +276,7 @@ section {
   height: 300px;  
   margin: 5px;
   border-radius: 70px;
-  background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/naming-1.png);
+  background-image: url(../img/naming-1.png);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -285,31 +285,31 @@ section {
 
 
 .img-box-naming:nth-child(2) {
-    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/naming-2.png);
+    background-image: url(../img/naming-2.png);
     background-size: cover;
     background-position: center;
 }
 
 .img-box-naming:nth-child(3) {
-    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/naming-3.jpg);
+    background-image: url(../img/naming-3.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .img-box-naming:nth-child(4) {
-    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/naming-4.png);
+    background-image: url(../img/naming-4.png);
     background-size: cover;
     background-position: center;
 }
 
 .img-box-naming:nth-child(5) {
-    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/naming-5.jpg);
+    background-image: url(../img/naming-5.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .img-box-naming:nth-child(6) {
-    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/naming-6.jpg);
+    background-image: url(../img/naming-6.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -359,7 +359,7 @@ section {
   height: 300px;  
   margin: 5px;
   border-radius: 70px;
-  background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/packaging-1.jpg);
+  background-image: url(../img/packaging-1.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -368,20 +368,20 @@ section {
 
 
 .img-box-pack:nth-child(2) {
-    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/packaging-2.jpg);
+    background-image: url(../img/packaging-2.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .img-box-pack:nth-child(3) {
-    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/packaging-3.jpg);
+    background-image: url(../img/packaging-3.jpg);
     background-size: cover;
     background-position: center;
 }
 
 
 .img-box-pack:nth-child(4) {
-    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/packaging-4.jpg);
+    background-image: url(../img/packaging-4.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -432,7 +432,7 @@ section {
   height: 300px;  
   margin: 5px;
   border-radius: 70px;
-  background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/digital-1.png);
+  background-image: url(../img/digital-1.png);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -441,13 +441,13 @@ section {
 
 
 .img-box-digi:nth-child(2) {
-    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/digital-2.png);
+    background-image: url(../img/digital-2.png);
     background-size: cover;
     background-position: center;
 }
 
 .img-box-digi:nth-child(3) {
-    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/digital-3.png);
+    background-image: url(../img/digital-3.png);
     background-size: cover;
     background-position: center;
 }
@@ -498,7 +498,7 @@ section {
   height: 300px;  
   margin: 5px;
   border-radius: 70px;
-  background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/imagen-1.jpg);
+  background-image: url(../img/imagen-1.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -507,31 +507,31 @@ section {
 
 
 .img-box-img:nth-child(2) {
-    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/imagen-2.jpg);
+    background-image: url(../img/imagen-2.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .img-box-img:nth-child(3) {
-    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/imagen-3.jpg);
+    background-image: url(../img/imagen-3.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .img-box-img:nth-child(4) {
-    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/imagen-4.jpg);
+    background-image: url(../img/imagen-4.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .img-box-img:nth-child(5) {
-    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/imagen-5.jpg);
+    background-image: url(../img/imagen-5.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .img-box-img:nth-child(6) {
-    background-image: url(/Users/mariepino/Documents/GitHub/Practica-1/img/imagen-6.jpg);
+    background-image: url(../img/imagen-6.jpg);
     background-size: cover;
     background-position: center;
 }
