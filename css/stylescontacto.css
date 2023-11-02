@@ -135,6 +135,10 @@ a:hover {
     justify-content: center;
 }
 
+#contacto {
+    padding: 10%;
+}
+
 #contacto > div:nth-child(2) {
     display: flex;
     justify-content: space-between;
