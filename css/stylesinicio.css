@@ -92,7 +92,15 @@ header {
 
 }
 
+#filosofia h3 {
+    font-size: 6vw;
+    font-family: 'Modak';
+}
 
+#filosofia p {
+    font-size: 2vw;
+    font-family: 'Roboto';
+}
 
 .navbar {
     width: 100%;
@@ -207,7 +215,7 @@ section {
 #destacado{
     color: #000000;
     background-color:#ffffff;
-    padding-top: 7em;
+    padding-top: 0%;
     padding-bottom: 7em;
 }
 .texto{
@@ -238,7 +246,7 @@ section {
 .s-box{
 	background-color: #000000;
 	width: 500px;
-	height: 700px;
+	height: 500px;
 	margin: 20px;
 	border-radius: 10px;
 	overflow: hidden;
