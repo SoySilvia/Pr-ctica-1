@@ -35,6 +35,7 @@ p {
     font-family: 'Roboto';
     font-weight: 100; 
     color: #000000; 
+    font-size: 1.5em;
 }
 
 .animate__animated.animate__bounce {
@@ -674,8 +675,13 @@ footer {
     text-align: center;
 
   }
+
+  @media screen and (max-width: 1300px) {
+
+}
+
   
-  @media (max-width:992px) {
+  @media (max-width:920px) {
     .navbar .links,
     .navbar .action_btn {
         display: none;
@@ -689,7 +695,20 @@ footer {
         display: block;
     }
 
-    @media (max-width:576px) {
+    #contacto > div {
+        flex-direction: column;
+    }
+
+    #contacto > div:nth-child(2) > div,
+    #contacto > div:nth-child(2) > iframe {
+        width: 100%;
+    }
+
+    #contacto > div:nth-child(2) > div {
+        margin-bottom: 1em;
+    }
+
+    @media (max-width:600px) {
         .dropdown_menu {
             left: 2rem;
             width: unset;
