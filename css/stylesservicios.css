@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0%;
     box-sizing: border-box;
-    font-family:'Modak'; 
+    font-family: 'Modak';
     font-family:'Dela Gothic One'; 
     font-family: 'Roboto',  sans-serif; 
     scroll-behavior: smooth;
@@ -109,7 +109,7 @@ a:hover {
 .navbar .logo a {
     font-size: 3rem;
     font-weight: bold;
-    font-family:'Modak'; 
+    font-family: 'Modak';
 }
 
 .navbar .links {
@@ -800,7 +800,7 @@ footer {
     .navbar .logo a {
         font-size: 2rem;
         font-weight: bold;
-        font-family:'Modak'; 
+        font-family: 'Modak';
     }
 
     .container {

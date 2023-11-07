@@ -460,3 +460,142 @@ footer {
         }
     }
   }
+
+  @media (max-width:920px) {
+
+    header {
+        padding: 2%;
+    }
+
+    .navbar .links,
+    .navbar .action_btn {
+        display: none;
+    }
+
+    .navbar .toggle_btn {
+        display: block;
+    }
+
+    .dropdown_menu{
+        display: block;
+    }
+
+    .gallery1, .gallery2, .gallery3, .gallery4, .gallery5 {
+        width: 100%;
+    }
+
+    .img-box-img:hover h3{
+        opacity: 1;
+        bottom: 25px;
+        font-size: 0.8em;
+        
+    }
+
+    .img-box-naming:hover h3{
+        opacity: 1;
+        bottom: 25px;
+        font-size: 0.8em;
+        
+    }
+
+    footer {
+        width: 100%;
+        height: fit-content;
+    }
+
+    #contacto > div {
+        flex-direction: column;
+    }
+
+    #contacto > div:nth-child(2) > div,
+    #contacto > div:nth-child(2) > iframe {
+        width: 100%;
+    }
+
+    #contacto > div:nth-child(2) > div {
+        margin-bottom: 1em;
+    }
+}  
+    
+    
+@media (max-width:768px) {
+
+    .dropdown_menu {
+        top: 6rem;
+        left: 2rem;
+        width: unset;
+    }
+
+    .s-box {
+        width: 320px;
+        height: 380px;  
+        margin: 5px;
+
+    }
+
+    .s-b-text > p {
+        font-size: 0.8rem;
+    
+    }
+
+    .s-b-text > a {
+        font-size: 0.5rem;
+    
+    }
+        
+}
+
+@media (max-width:320px) {
+
+    #titulo  {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #titulo > a {
+        font-size: 3em;
+    } 
+
+    #titulo > h1 {
+        font-size: 2em;
+    } 
+
+    #filosofia > h3 {
+        font-size: 3em;
+    }
+
+    #filosofia > p {
+        font-size: 0.6em;
+    }
+
+    .s-heading > p {
+        font-size: 2em;
+    }
+
+    .navbar .logo a {
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: 'Modak';
+    }
+
+    .b-container {
+        flex-direction: column;
+
+    }
+    .s-box {
+        width: 220px;
+        height: 400px;  
+        margin: 5px;
+
+    }
+
+    .s-b-text > a {
+        font-size: 0.6rem;
+
+    }
+
+}
