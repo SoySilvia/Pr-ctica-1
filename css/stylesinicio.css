@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0%;
     box-sizing: border-box;
-    font-family:'Modak'; 
+    font-family: "Kasia-Black";    
     font-family:'Dela Gothic One'; 
     font-family: 'Roboto',  sans-serif; 
     scroll-behavior: smooth;
@@ -10,7 +10,7 @@
 }
 
 h1 {
-    font-family: 'Modak';
+    font-family: "Kasia-Black";    
     font-size: 8vw;
     color: rgb(255, 255, 255);
 
@@ -80,21 +80,20 @@ header {
     align-items: left;
     font-size: 5rem;    
     color: #ffffff;
-    font-family: 'Modak';
-
+    font-family: "Kasia-Black";
 }
 
 #titulo > h1 {
     justify-content: left;
     display: flex;
     align-items: left;
-    font-size: 9rem;
+    font-size: 8rem;
 
 }
 
 #filosofia h3 {
     font-size: 6vw;
-    font-family: 'Modak';
+    font-family: "Kasia-Black";
 }
 
 #filosofia p {
@@ -119,7 +118,7 @@ header {
 .navbar .logo a {
     font-size: 3rem;
     font-weight: bold;
-    font-family:'Modak'; 
+    font-family: "Kasia-Black";
 
 }
 
@@ -579,7 +578,7 @@ footer {
     .navbar .logo a {
         font-size: 2rem;
         font-weight: bold;
-        font-family: 'Modak';
+        font-family: "Kasia-Black";
     }
 
     .b-container {

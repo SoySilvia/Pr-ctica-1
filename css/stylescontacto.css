@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0%;
     box-sizing: border-box;
-    font-family: 'Modak';
+    font-family: "Kasia-Black";
     font-family:'Dela Gothic One'; 
     font-family: 'Roboto',  sans-serif; 
     scroll-behavior: smooth;
@@ -11,8 +11,8 @@
 }
 
 h1 {
-    font-family: 'Modak';
-    font-size: 8vw;
+    font-family: "Kasia-Black";
+    font-size: 7vw;
     color: rgb(255, 255, 255);
 
 }
@@ -64,7 +64,7 @@ a:hover {
 .navbar .logo a {
     font-size: 3rem;
     font-weight: bold;
-    font-family: 'Modak';
+    font-family: "Kasia-Black";
 }
 
 .navbar .links {
@@ -284,7 +284,7 @@ a:hover {
         .navbar .logo a {
             font-size: 2rem;
             font-weight: bold;
-            font-family: 'Modak';
+            font-family: "Kasia-Black";
         }
     
     }
